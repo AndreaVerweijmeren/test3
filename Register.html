@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	  <!-- CSS FILES -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+	  <link rel="stylesheet" href="CSS/register.css">
+
+    <title>Register</title>
+  </head>
+	
+  <body>
+	<form name="myForm" action="index.html" onsubmit="return validateForm()">
+ 	 <div class="container">
+		<div class="picture">
+		  <a href="index.html">
+    		<img src="Images/logo.png" height="150" alt="logo"></a>
+		</div>
+		 	<label for="uname"><b>Name</b></label>
+	  			<input type="text" placeholder="Enter First Name" name="f-name">
+		 	<label for="uname"><b>Last Name</b></label>
+				<input type="text" placeholder="Enter Last name" name="l-name">
+			<label for="uname"><b>E-mail</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required>
+		 	<label for="uname"><b>Phone Number</b></label>
+				<input type="password" placeholder="(Optional) Phone Number" name="psw">
+		 	<label for="uname"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+
+	<div class=" signin">
+		<a style="text-decoration: none; color: #ffffff;" href="index.html"> 
+			<button type="button submit" class="cancelbtn">
+				Create Account
+			</button>
+	   </a>
+   		 <p>Already have an account? <a href="index.html">Sign in.</a></p>
+  	</div>
+	  <hr>
+  		 <p class="terms">By creating an account you agree to our <a href="terms & privacy.html">Terms & Privacy</a>.</p>
+	</div>
+</form>
+  
+	  <script src="JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

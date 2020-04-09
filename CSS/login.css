@@ -3,12 +3,12 @@
 
 body {
 	background-color:#DCE8EE;
-	margin-top: 25px;
+	margin-top: 20px;
 	padding: 10px;
 }
 
 header {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	text-align: center;
 }
 
@@ -17,7 +17,6 @@ header {
 input[type=text], input[type=password] {
   	width: 100%;
   	padding: 12px 20px;
-  	margin: 0px 0 15px 0;
   	display: inline-block;
   	border: 1px solid #ccc;
   	box-sizing: border-box;
@@ -58,14 +57,14 @@ button:hover {
 input[type=text], input[type=password] {
   	width: 100%;
   	padding: 12px;
-  	margin: 0px 0 25px 0;
+  	margin: 0px 0 2px 0;
   	display: inline-block;
   	border: none;
   	background: white;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  	background-color: white;
+  	background-color: #C1C1C1;
   	outline: none;
 }
 
@@ -90,11 +89,9 @@ input:checked + .slider:before {
 
 .signin {
   	text-align: center;
-  	margin-top: 10px;
 }
 
 .forgot1 {
-	margin-top: 11px;
 	font-family: "open-sans";
 	font-size: 14pt;
 }
@@ -102,6 +99,7 @@ input:checked + .slider:before {
 .forgot2 {
 	font-size: 12pt;
 	font-family: "open-sans";
+	color: #10263A;
 }
 
 a {
@@ -117,8 +115,19 @@ p {
 	font-family: "open-sans"; 
 }
 
-h5 {
-	color: #454545;
+h6 {
 	font-family: "open-sans";
+	font-size: 14pt;
+	color: dimgray;
+	margin-top: 5px;
 }
 
+b {
+	color: #454545;
+	font-family: "open-sans";
+	font-size: 13pt;
+}
+
+.password {
+	margin-top: 20px;
+}
