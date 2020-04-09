@@ -3,7 +3,7 @@
 
 body {
 	background-color:#DCE8EE;
-	margin-top: 35px;
+	margin-top: 25px;
 	padding: 10px;
 }
 
@@ -90,7 +90,7 @@ input:checked + .slider:before {
 
 .signin {
   	text-align: center;
-  	margin-top: 30px;
+  	margin-top: 10px;
 }
 
 .forgot1 {
@@ -117,7 +117,7 @@ p {
 	font-family: "open-sans"; 
 }
 
-h4 {
+h5 {
 	color: #454545;
 	font-family: "open-sans";
 }
