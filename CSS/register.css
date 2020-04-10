@@ -24,6 +24,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: none;
   background: white;
+  border-radius: 25px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -91,6 +92,7 @@ button:hover {
 
 b {
 	font-family: "open-sans";
-	font-size: 12pt;
-	color: dimgrey;
+	font-size: 13pt;
+	color: #454545;
+	margin-left: 10px;
 }

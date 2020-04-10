@@ -4,102 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css">
-	  <link href="CSS/login.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="CSS/S/bootstrap.min.css" type="text/css">
+	  <link href="CSS/contact.css" rel="stylesheet" type="text/css">
+	  <link href="CSS/menu.css" rel="stylesheet" type="text/css">
   </head>  
-  
-  <body>
+ <body>
+	
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  	  <a class="a a1" href="home.html">Home</a>
+	  <a class="a" href="#">Your Pets</a>
+	  <a class="a" href="#">Appointments</a>
+	  <a class="a" href="#">Messages</a>
+	  <a class="a" href="contact.html">Contact</a>	
+	  <a class="logout" href="index.html">
+		<button type="button" class="cancelbtn">Logout</button> 
+	  </a>
+</div>
 
-      <!-- Navigatie Menu -->
-	  <header>  
-<h4>Contact Form,</h4><br>
-<div>
-<form id="contactformulier" name="contactformulier" method="post" action="mailer.php">
-  <table width="740" border="0">
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">Voornaam:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <input type="text" size="60" maxlength="256" name="voornaam" id="voornaam"></font> </font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">Achternaam:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <input type="text" size="60" maxlength="256" name="achternaam" id="achternaam"></font> </font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">Adres:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <input type="text" size="60" maxlength="256" name="adres" id="adres"></font> </font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">Postcode + woonplaats:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <input type="text" size="60" maxlength="256" name="postcodewoonplaats" id="postcodewoonplaats"></font>
-		</font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">Telefoonnummer:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <input type="text" size="60" maxlength="256" name="telefoonnummer" id="telefoonnummer"></font>
-		</font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">E-mailadres:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <input type="text" size="60" maxlength="256" name="emailadres" id="emailadres"></font> </font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">
-		<p style="margin-top: 0; margin-bottom: 0"><font face="Arial">Bericht:</font></td>
-      <td width="545">
-		<p style="margin-top: 0; margin-bottom: 0"><label>
-        <font face="Arial"><font size="3">
-        <textarea name="bericht" id="bericht" cols="60" rows="8"></textarea></font>
-		</font>
-      </label></td>
-    </tr>
-    <tr>
-      <td width="185">&nbsp;</td>
-      <td width="545"><label>
-        <font face="Arial"><font size="3">
-        <input type="submit" name="submit" id="submit" value="verzenden"></font>
-		</font>
-      </label></td>
-    </tr>
-  </table></br><br/>
-</form></h4>
-</div>
-</div>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+ <!-- Use any element to open the sidenav -->
+	<span onclick="openNav()">
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+	</span>
 	
-	
+	<main onclick="closeNav()">
+		<div class="main">
+			<div class="img1">
+				<img class="cat" alt="cat" src="Images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg" height="200">
+			</div>
+		<h2>Contact Form</h2>
+			<hr>
+			
+	<div class="container">
+  		<form action="">
+			<label for="fname">
+				<b>Name</b>
+			</label>
+   				<input type="text" id="name" placeholder="Your name...">
+
+			<label for="lname">
+				<b>E-mail</b>
+			</label>
+    			<input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+
+			<label for="country">
+				<b>Reason</b>
+			</label>
+    <select id="country" name="country">
+      <option value="australia">
+		  <b>Question</b>
+	  </option>
+      <option value="canada">
+		  <b>Complaint</b>
+	  </option>
+      <option value="usa">
+		  <b>Other</b>
+	  </option>
+    </select>
+
+    <label for="subject">
+		<b>Subject</b>
+    </label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
-	
+		</div>
+	</main>
+
+</div>
 	<script src="JS/jquery-3.4.1.slim.min.js"></script>
     <script src="JS/bootstrap.bundle.min.js"></script>
-    
+    <script src="JS/menu.js"></script>
    </body>
 </html>

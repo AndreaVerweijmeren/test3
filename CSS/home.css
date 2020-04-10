@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing: border-box}
+
+body {
+	background-color: whitesmoke;
+}
+
+.information {
+	background-color: #DCE8EE;
+	padding: 20px;
+}
+
+b {
+	font-family: "open-sans";
+	font-size: 13pt;
+	color: #454545;
+	margin-left: 10px;
+}
+
+.main {
+	  padding: 20px;
+}
+
+.img1 {
+	text-align: center;
+	background-color: #DCE8EE;
+	padding: 10px;
+	padding-bottom: 40px;
+}
+
+img{
+	border-radius: 20px;
+}
+
+hr {
+	height: 1px;
+	background-color: #10263A;	 
+}
+
+h6 {
+	font-family: merriweather;
+	font-size: 15pt;
+}
+
+h2 {
+	font-family: merriweather;
+	text-align: center;
+}
+
+h4 {
+	font-family: merriweather;
+	text-align: center;
+}
+
+p {
+	font-family: "open-sans";
+	font-size: 12pt;
+	text-align: center;

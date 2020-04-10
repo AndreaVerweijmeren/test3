@@ -61,6 +61,7 @@ input[type=text], input[type=password] {
   	display: inline-block;
   	border: none;
   	background: white;
+	border-radius: 25px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -126,8 +127,13 @@ b {
 	color: #454545;
 	font-family: "open-sans";
 	font-size: 13pt;
+	margin-left: 10px;
 }
 
 .password {
 	margin-top: 20px;
+}
+
+.remember {
+	margin-left: 10px;
 }
