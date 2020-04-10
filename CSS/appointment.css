@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing: border-box}
+
+body {
+	background-color: whitesmoke;
+}
+
+.cat {
+	border-radius: 20px;
+}
+
+.img1 {
+	text-align: center;
+	width: 100%;
+}
+
+/*Contact form */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: Merriweather;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #10263A;
+  margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  opacity: 0.5;
+}
+
+::placeholder {
+  color: #848484;
+  font-family: "open-sans";
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 10px;
+  background-color: #DCE8EE;
+  padding: 20px;
+}
+
+h2 {
+	font-family: "open-sans";
+}
+
+
+b {
+	font-family: "open-sans";
+	font-size: 13pt;
+	color: #454545;
+	margin-left: 10px;
+}
+
+hr {
+	height: 4px;
+	background-color: #10263A;
+	margin-bottom: 20px;
+}
+
+#country {
+	background-color: white;
+	color: #848484;
+  	font-family: "open-sans";
+	font-size: 11pt;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #10263A;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 11.3%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 11.5%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #10263a;
+  color: white !important
+}
+
+.days li .over {
+  padding: 2px;
+  background-color: dimgrey;
+  color: white !important
+}
+
+.days li .free {
+  padding: 2px;
+  background-color: forestgreen;
+  color: white !important
+}
+
+.days li .busy {
+  padding: 2px;
+  background-color: orangered;
+  color: white !important
+}

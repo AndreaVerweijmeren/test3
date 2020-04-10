@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages</title>
+    <link rel="stylesheet" href="CSS/S/bootstrap.min.css" type="text/css">
+	  <link href="CSS/message.css" rel="stylesheet" type="text/css">
+	  <link href="CSS/menu.css" rel="stylesheet" type="text/css">
+  </head>  
+  <body>
+	  
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a class="a a1" href="home.html">Home</a>
+  <a class="a" href="pets.html">Your Pets</a>
+  <a class="a" href="Appointment.html">Appointments</a>
+  <a class="a" href="Recipe.html">Recipes</a>
+  <a class="a" href="messages.html">Messages</a>
+  <a class="a" href="contact.html">Contact</a>	
+	<a class="logout" href="index.html">
+		<button type="button" class="cancelbtn">Logout</button> 
+	</a>
+</div>
+
+<div id="main">
+ <!-- Use any element to open the sidenav -->
+	<span onclick="openNav()">
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+	</span>
+	
+	<main onclick="closeNav()">
+ <div class="main">
+		<h2>Inbox</h2>
+			<hr>
+			
+	<div class="container">
+  		<ul>
+			<li>
+				<div class="avatar">
+					<img alt="" src="Images/logo.png" height="65">
+				</div>
+				<div class="text">
+				<b>Reminder Vaccination for Charlie</b>
+				<p>Dear, we would like to remind you that Charlie's next vaccination is coming up. You can make an appointment through the app...</p>
+					</div>
+			</li>
+			<li>
+				<div class="avatar">
+					<img alt="" src="Images/logo.png" height="65">
+				</div>
+				<div class="text">
+				<b>Reminder Vaccination for Max</b>
+				<p>Dear, we would like to remind you that Charlie's next vaccination is coming up. You can make an appointment through the app...</p>
+					</div>
+			</li>
+			<li>
+				<div class="avatar">
+					<img alt="" src="Images/logo.png" height="65">
+				</div>
+				<div class="text">
+				<b>Free puppy consult in May</b>
+				<p>Dear, we would like to offer you a free puppy consult in may...</p>
+					</div>
+			</li>
+			<li>
+				<div class="avatar">
+					<img alt="" src="Images/logo.png" height="65">
+				</div>
+				<div class="text">
+				<b>Come enjoy a valentines dinner with your pet</b>
+				<p>Dear, Not only humans celebrate valentines. Lets treat your pet to  nice meal and maybe a playdate...</p>
+					</div>
+			</li>
+			<li>
+				<div class="avatar">
+					<img alt="" src="Images/logo.png" height="65">
+				</div>
+				<div class="text">
+				<b>Update: You can now use the app for recipes</b>
+				<p>Dear, order your recipes beforehand so you can be in and out with you medication or food in no time!</p>
+					</div>
+			</li>
+			<li>
+				<div class="avatar">
+					<img alt="" src="Images/logo.png" height="65">
+				</div>
+				<div class="text">
+				<b>Paw Tracker</b>
+				<p>Dear, have you heard of this new amazing app that helps you find and return missing pets?...</p>
+					</div>
+			</li>
+		
+		
+		
+		</ul>
+</div>
+		</div>
+	</main>
+
+</div>
+
+	  
+	<script src="JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/menu.js"></script>
+	 <script src="JS/message.js"></script>
+   </body>
+</html>

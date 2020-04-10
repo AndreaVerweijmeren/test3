@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment</title>
+    <link rel="stylesheet" href="CSS/S/bootstrap.min.css" type="text/css">
+	  <link href="CSS/appointment.css" rel="stylesheet" type="text/css">
+	  <link href="CSS/menu.css" rel="stylesheet" type="text/css">
+  </head>  
+  <body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a class="a a1" href="home.html">Home</a>
+  <a class="a" href="pets.html">Your Pets</a>
+  <a class="a" href="Appointment.html">Appointments</a>
+  <a class="a" href="Recipe.html">Recipes</a>
+  <a class="a" href="messages.html">Messages</a>
+  <a class="a" href="contact.html">Contact</a>	
+	<a class="logout" href="index.html">
+		<button type="button" class="cancelbtn">Logout</button> 
+	</a>
+</div>
+
+<div id="main">
+ <!-- Use any element to open the sidenav -->
+	<span onclick="openNav()">
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+	</span>
+	
+		<div class="main">
+			
+		<h2>Make an Appointment:</h2>
+			<hr>
+			
+	<div class="container">
+  		<form action="">
+			<label for="fname">
+				<b>Name</b>
+			</label>
+   				<input type="text" id="name" placeholder="Your name...">
+
+			<label for="lname">
+				<b>E-mail</b>
+			</label>
+    			<input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+			
+			<label for="lname">
+				<b>Name of pet</b>
+			</label>
+    			<input type="text" id="pname" name="lastname" placeholder="Your pets name...">
+
+			<label for="country">
+				<b>Amount of animals</b>
+			</label>
+    <select id="country" name="country">
+      <option value="australia">
+		  <b>1</b>
+	  </option>
+      <option value="canada">
+		  <b>2</b>
+	  </option>
+		<option value="canada">
+		  <b>3</b>
+	  </option>
+      <option value="usa">
+		  <b>More</b>
+	  </option>
+    </select>
+			
+			<label for="country">
+				<b>What kind of appointment</b>
+			</label>
+    <select id="country" name="country">
+      <option value="australia">
+		  <b>Vaccinations</b>
+	  </option>
+      <option value="canada">
+		  <b>Check up</b>
+	  </option>
+		<option value="canada">
+		  <b>Puppy consult</b>
+	  </option>
+      <option value="usa">
+		  <b>Other</b>
+	  </option>
+    </select>
+
+    <label for="subject">
+		<b>Other information</b>
+    </label>
+    <textarea id="subject" name="subject" placeholder="Write extra information/questions.." style="height:50px"></textarea>
+			
+			<div class="month">
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>April<br><span style="font-size:18px">2020</span></li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+	<li><span class="over">30</span></li>
+	<li><span class="over">31</span></li>
+  <li><span class="over">1</span></li>
+  <li><span class="over">2</span></li>
+  <li><span class="over">3</span></li>
+  <li><span class="over">4</span></li>
+  <li><span class="over">5</span></li>
+  <li><span class="over">6</span></li>
+  <li><span class="over">7</span></li>
+  <li><span class="over">8</span></li>
+  <li><span class="over">9</span></li>
+  <li><span class="active">10</span></li>
+  <li>11</li>
+  <li>12</li>
+	<li><span class="busy">13</span></li>
+	<li><span class="free">14</span></li>
+	<li><span class="free">15</span></li>
+	<li><span class="free">16</span></li>
+	<li><span class="busy">17</span></li>
+	<li>18</li>
+	<li>19</li>
+	<li>20</li>
+	<li>21</li>
+	<li>22</li>
+	<li>23</li>
+	<li>24</li>
+	<li>25</li>
+	<li>26</li>
+	<li>27</li>
+	<li>28</li>
+	<li>29</li>
+	<li>30</li>
+	<li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ul>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+		</div>
+	</main>
+
+	  
+	<script src="JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/menu.js"></script>
+   </body>
+</html>

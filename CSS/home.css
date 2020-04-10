@@ -26,7 +26,7 @@ b {
 	text-align: center;
 	background-color: #DCE8EE;
 	padding: 10px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	
 }
 
@@ -84,6 +84,7 @@ p {
 .slideshow-container {
   position: relative;
   margin: auto;
+  margin-top: 10px;
 }
 .prev,
 .next {
