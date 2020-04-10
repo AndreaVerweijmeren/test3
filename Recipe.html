@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Recipes</title>
     <link rel="stylesheet" href="CSS/S/bootstrap.min.css" type="text/css">
-	  <link href="CSS/contact.css" rel="stylesheet" type="text/css">
+	  <link href="CSS/recipe.css" rel="stylesheet" type="text/css">
 	  <link href="CSS/menu.css" rel="stylesheet" type="text/css">
   </head>  
   <body>
@@ -32,7 +32,74 @@
 	</span>
 	
 	<main onclick="closeNav()">
+			<h1>Recipes</h1>	
+				<hr>
+				  <div class="text">
+					<p>Repeat recipes will show up in the list. <br> You can order medication for your animal in two ways:</p>
+		
+						<ul>
+							<li>Order the recipes you know through the app</li>
+							<li>Go to your closest location to discuss with a vet</li>
+						</ul>
+					<p>Recipes can be picked up within two working days when in stock.</p>
+		</div>
+		<h3>Order your recipe</h3>
+			
+	<div class="container">
+  		<form action="">
+			<label for="fname">
+				<b>Name</b>
+			</label>
+   				<input type="text" id="name" placeholder="Your name...">
 
+			<label for="lname">
+				<b>E-mail</b>
+			</label>
+    			<input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+
+			<label for="country">
+				<b>Animal</b>
+			</label>
+    <select id="country" name="country">
+      <option value="australia">
+		  <b>Sammy</b>
+	  </option>
+      <option value="canada">
+		  <b>Lumiere</b>
+	  </option>
+      <option value="usa">
+		  <b>Other</b>
+	  </option>
+    </select>
+			
+			<label for="country">
+				<b>Medecine</b>
+			</label>
+    <select id="country" name="country">
+      <option value="australia">
+		  <b>Vaccanation</b>
+	  </option>
+      <option value="canada">
+		  <b>Anti worms</b>
+	  </option>
+      <option value="usa">
+		  <b>Anti flees</b>
+	  </option>
+		<option value="usa">
+		  <b>Other</b>
+	  </option>
+    </select>
+
+    <label for="subject">
+		<b>Notes/Questions</b>
+    </label>
+    <textarea id="subject" name="subject" placeholder="Any notes or questions?" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+		
+	</main>
 </div>  
 
 	  

@@ -61,7 +61,7 @@ input[type=submit]:hover {
 }
 
 h2 {
-	font-family: "open-sans";
+	font-family: Merriweather;
 }
 
 
@@ -75,6 +75,7 @@ hr {
 	height: 4px;
 	background-color: #10263A;
 	margin-bottom: 20px;
+	
 }
 
 #country {
@@ -84,6 +85,14 @@ hr {
 	font-size: 11pt;
 }
 
+.env {
+	float: right;
+}
+
+.inbox {
+	margin-bottom: 25px;
+	
+}
 
 ul {
 	list-style-type: none;
