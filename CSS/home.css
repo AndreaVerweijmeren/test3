@@ -27,15 +27,18 @@ b {
 	background-color: #DCE8EE;
 	padding: 10px;
 	padding-bottom: 40px;
+	
 }
 
 img{
 	border-radius: 20px;
+	margin-top: 5px;
 }
 
 hr {
 	height: 1px;
-	background-color: #10263A;	 
+	background-color: #10263A;
+	margin-top: 30px;
 }
 
 h6 {
@@ -46,6 +49,7 @@ h6 {
 h2 {
 	font-family: merriweather;
 	text-align: center;
+	margin-top: 10px;
 }
 
 h4 {

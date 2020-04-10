@@ -74,3 +74,10 @@ hr {
 	background-color: #10263A;
 	margin-bottom: 20px;
 }
+
+#country {
+	background-color: white;
+	color: #848484;
+  	font-family: "open-sans";
+	font-size: 11pt;
+}
