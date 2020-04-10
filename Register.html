@@ -15,9 +15,11 @@
   <body>
 	<form name="myForm" action="index.html" onsubmit="return validateForm()">
  	 <div class="container">
-		<div class="picture">
-		  <a href="index.html">
-    		<img src="Images/logo.png" height="150" alt="logo"></a>
+		 <div class="avatar">
+			<img class="img2" src="Images/logo.png" alt="logo" height="150">
+  				<input id="to-hide" type="file" onchange="previewFile()">
+  				<input type="button" class="upload" value="Edit" onClick="document.getElementById('to-hide').click()">
+			 <h6>Upload a picture</h6>
 		</div>
 		 	<label for="uname"><b>Name</b></label>
 	  			<input type="text" placeholder="Enter First Name" name="f-name">
@@ -45,5 +47,6 @@
   
 	  <script src="JS/jquery-3.4.1.slim.min.js"></script>
     <script src="JS/bootstrap.bundle.min.js"></script>
+	  <script src="JS/register.js"></script>
   </body>
 </html>

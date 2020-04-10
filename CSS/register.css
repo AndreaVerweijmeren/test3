@@ -96,3 +96,76 @@ b {
 	color: #454545;
 	margin-left: 10px;
 }
+
+.avatar {
+  margin: 24px 0 12px 0;
+ background-color: #B9D5DE;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.img2 {
+	width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  transition: 200ms;
+ 
+}
+
+.avatar:hover img {
+  opacity: .6;
+}
+
+.avatar:hover .upload {
+  opacity: 1;
+}
+
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+}
+
+#to-hide {
+display: none;
+	
+}
+
+.upload {
+  width: 40px;
+  height: 40px;
+  background: #4D667E;
+  border: none;
+  box-shadow: 0 0 0 6px #fff;
+  border-radius: 50%;
+  outline: none;
+  color: #000;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0;
+  transition: 200ms;
+	
+}
+
+.upload:hover {
+  background: #555;
+  color: #fff;
+}
