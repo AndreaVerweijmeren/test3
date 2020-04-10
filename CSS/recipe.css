@@ -6,11 +6,13 @@ body {
 	background-color: whitesmoke;
 }
 
+.laptop {
+	border-radius: 30px;
+}
+
 .text {
 	text-align: center;
 }
-
-
 
 /*Contact form */
 /* Style inputs with type="text", select elements and textareas */
@@ -61,6 +63,12 @@ h1 {
 h3 {
 	font-family: Merriweather;
 	color: #10263A;
+}
+
+li {
+	font-family: "open-sans";
+	font-size: 13pt;
+	color: #454545;
 }
 
 p {

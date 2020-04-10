@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@charset "utf-8";
-/* CSS Document */
 * {box-sizing: border-box}
 
 body {
@@ -15,7 +13,12 @@ body {
 
 .img1 {
 	text-align: center;
-	width: 100%;
+	width: 92%;
+	background-color: #DCE8EE;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 14px;
+	margin-right: 14px;
 }
 
 /*Contact form */
@@ -61,6 +64,10 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+#main {
+	
+}
+
 h2 {
 	font-family: "open-sans";
 }
@@ -87,7 +94,7 @@ hr {
 }
 
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+
 
 /* Month header */
 .month {
